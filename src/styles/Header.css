@@ -1,0 +1,37 @@
+.title{
+    text-align: center;
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 50px;
+}
+.search{
+    align-items:center;
+    justify-content: center;
+}
+.main-nav1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    padding-top: 25px;
+    /* padding-left: 320px; */
+    /* margin-left: 320px; */
+}
+
+.main-nav1 nav:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .main-nav1 button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 9px;  }
+  .b1{
+   color: black;
+   font-family: 'Bagel Fat One', curive;
+
+  }

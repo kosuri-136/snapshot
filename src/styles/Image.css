@@ -1,0 +1,22 @@
+.image-main{
+    /* padding-left: 7px; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 0px;
+    width: 250px;
+    height: 210px;
+    margin-left: 35px;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.image-main {
+  transition: transform 1s ease;
+}
+
+.image-container:hover .image-main {
+  transform: scale(1.1); /* Increase the scale value to adjust the zoom level */
+}
